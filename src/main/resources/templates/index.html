@@ -17,6 +17,11 @@
 
 <body>
     <container>SPRING CRUD ONE</container>
+
+    <form th:action="@{/logout}" method="post" class="form-inline">
+        <input type="submit" th:value="#{login.logout}" class="btn btn-secondary" />
+    </form>
+
 </body>
 
 </html>
